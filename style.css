@@ -5,6 +5,7 @@ body{
     font-size: 18px;
 }
 
+
 main{        
     height:100vh;
     margin:auto;
@@ -16,22 +17,52 @@ main{
 section{
     width:310px;
     background-color: hsl(216, 50%, 16%); 
-    padding:20px;
+    padding:25px;
     border-radius: 15px;
     position: relative;
       
 }
 
-header img{
-    width: 100%;
-    border-radius: 10px;
+.profile{
     cursor: pointer;
 }
 
-header img:hover{
-    background-color: hsl(178, 100%, 50%);
+.profile img{
+    width: 100%;
+    border-radius: 10px;
+    /* position:relative; */
 }
 
+
+.profile:hover .overlay{
+    opacity:1;
+}
+
+.profile{
+    width:100%;
+    position: relative;
+
+}
+
+.overlay{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    height: 310px;
+}
+
+.overlay img{
+    width:65px;
+    height:65px;
+}
 
 
 h1{
@@ -62,9 +93,11 @@ header, .time p{
     
 }
 
+
 .ethereum li{
     padding: 0 10px 0 0 ;
     margin:auto 0;
+    height: 17px;
 }
 
 .time{
@@ -72,10 +105,11 @@ header, .time p{
     display: flex;
     float:right;
     color:hsl(215, 51%, 70%);
+    font-weight: 300;
 }
 
 .time li{
-    padding: 0 10px 0 0 ;
+    padding: 0 5px 0 0 ;
     margin:auto 0;
 
 }
@@ -114,4 +148,5 @@ color:hsl(0, 0%, 100%);
 a:hover{
     color:hsl(178, 100%, 50%) ;
 }
+
 
