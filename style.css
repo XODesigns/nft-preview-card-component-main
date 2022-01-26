@@ -1,0 +1,117 @@
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    margin:auto;
+    font-size: 18px;
+}
+
+main{        
+    height:100vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+section{
+    width:310px;
+    background-color: hsl(216, 50%, 16%); 
+    padding:20px;
+    border-radius: 15px;
+    position: relative;
+      
+}
+
+header img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header img:hover{
+    background-color: hsl(178, 100%, 50%);
+}
+
+
+
+h1{
+    color:hsl(0, 0%, 100%);
+    /* font-weight: 400; */
+    font-size: 23px;
+    cursor: pointer;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+header, .time p{
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.app-body{
+    width:310px;
+}
+
+.ethereum {
+    color:hsl(178, 100%, 50%);
+    list-style-type:none;
+    display: inline-flex;
+    padding: 0;
+    
+}
+
+.ethereum li{
+    padding: 0 10px 0 0 ;
+    margin:auto 0;
+}
+
+.time{
+    list-style-type:none;
+    display: flex;
+    float:right;
+    color:hsl(215, 51%, 70%);
+}
+
+.time li{
+    padding: 0 10px 0 0 ;
+    margin:auto 0;
+
+}
+
+hr{
+   border: none;
+   height: 1px;
+   background-color:hsl(215, 32%, 27%)
+}
+
+.author img{
+    width:30px;
+    border:1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.author {
+    display: inline-flex;
+    width:100%;
+    list-style-type:none;
+    padding:0;
+}
+
+.author li{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding: 0 20px 0 0;
+    margin:auto 0;
+}
+
+a{
+cursor: pointer;
+color:hsl(0, 0%, 100%);
+}
+
+a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
