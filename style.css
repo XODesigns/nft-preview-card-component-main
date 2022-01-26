@@ -20,6 +20,7 @@ section{
     padding:25px;
     border-radius: 15px;
     position: relative;
+    box-shadow: 0 20px 10px hsl(0, 0%, 0%, 0.1)
       
 }
 
@@ -67,7 +68,7 @@ section{
 
 h1{
     color:hsl(0, 0%, 100%);
-    /* font-weight: 400; */
+    font-weight: 400;
     font-size: 23px;
     cursor: pointer;
 }
@@ -97,7 +98,8 @@ header, .time p{
 .ethereum li{
     padding: 0 10px 0 0 ;
     margin:auto 0;
-    height: 17px;
+    display: flex;
+    align-items: center;
 }
 
 .time{
@@ -111,7 +113,8 @@ header, .time p{
 .time li{
     padding: 0 5px 0 0 ;
     margin:auto 0;
-
+    display: flex;
+    align-items: center;
 }
 
 hr{
